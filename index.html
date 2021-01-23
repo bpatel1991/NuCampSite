@@ -27,7 +27,10 @@
                  </div> 
                 <div class="col">
                     <h1>NuCamp</h1>
-                    <h2>a better way to camp</h2>
+                    <h2>a better way to camp</h2>   
+                </div>
+                <div class="col col-md-4 col-xl-2 mt-4">
+                    <a href="#reserveForm" class="btn btn-info btn-lg text-nowrap" role="button">Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -103,7 +106,7 @@
                         <h3>Reserve a Campsite</h3>
                     </div>
                     <div class="card-body">
-                        <form>
+                        <form id="reserveForm">
                             <div class="row form-group">
                                 <label class="col-sm-6 col-form-label"> Number of Campers </label>                              </label>
                                 <div class="col">
@@ -123,6 +126,11 @@
                                 <div class="col">
                                     <input class="form-control" type="date" id="date" name="date">
                                 </div>
+                            <div class="row form-group">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary"> Search </button>
+                                </div>
+                            </div>   
                             </div>
                         </form>
                     </div>
